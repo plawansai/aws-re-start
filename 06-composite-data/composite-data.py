@@ -37,7 +37,6 @@ with open('car_fleet.csv') as csvFile:
             myInventoryList.append(currentVehicle)  
             lineCount += 1  
     print(f'Processed {lineCount} lines.')
-  currentVehicle = copy.deepcopy(myVehicle)
 
 #Printing the car inventory
 for myCarProperties in myInventoryList:
