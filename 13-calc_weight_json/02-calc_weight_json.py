@@ -1,6 +1,6 @@
-import 02-jsonFileHandler
+import jsonFileHandler
 
-data = 02-jsonFileHandler.readJsonFile('files/01-insulin.json')
+data = jsonFileHandler.readJsonFile('files/01-insulin.json')
 
 if data != "" :
     bInsulin = data['molecules']['bInsulin']
