@@ -6,10 +6,10 @@ printf("\nUsing subprocess.run")
 import subprocess
 subprocess.run(["ls"])
 
-# Using subprocess.run with two arguments
+printf("\nUsing subprocess.run with two arguments")
 subprocess.run(["ls","-l"])
 
-# Using subprocess.run with three arguments
+printf("\nUsing subprocess.run with three arguments")
 subprocess.run(["ls","-l","README.md"])
 
 # Retrieving system information
