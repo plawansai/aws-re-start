@@ -18,4 +18,8 @@ commandArgument="-a"
 print(f'Gathering system information with command: {command} {commandArgument}')
 subprocess.run([command,commandArgument])
 
-
+print("\nRetrieving information about disk space")
+command="ps"
+commandArgument="-x"
+print(f'Gathering active process information with command: {command} {commandArgument}')
+subprocess.run([command,commandArgument])
